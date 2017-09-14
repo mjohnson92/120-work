@@ -1,4 +1,4 @@
-## Michael Johnson 51
+## *Michael Johnson 51*
 ---
 # *The Second Week*
 ### *09 / 13 / 17*
@@ -33,6 +33,16 @@
 
 - ``$ cd 120-work``
 
-*I'm starting to understand how to change directories, make folders, and open things. Using the terminal in combination with github was very interesting, that will take a lot of work to get comfortable with. I followed along with the videos though so I did recieve some experience. I need to go back to week 1 and read the magic terminal story some more. This was mainly the only issue I ran into and I solved it by following along in the tutorial videos. I did not end up posting anything in the class repo issue tracker.*
+*I'm starting to understand how to change directories, make folders, and open things. Using the terminal in combination with github was very interesting, that will take a lot of work to get comfortable with.*
+
+![Terminal](/hw-2/screenshot-terminal.png)
+
+*I followed along with the videos though so I did recieve some experience. I need to go back to week 1 and read the magic terminal story some more. This was mainly the only issue I ran into and I solved it by following along in the tutorial videos.*
+
+*I did not end up posting anything in the class repo issue tracker. I went through several other class mate's issues to see if I could be of any help but they already had been given solutions. Next week I hope to more on top of my homework so I can help others out early on if needed.*
 
 *I feel as though the course is set up very well. It's easiest to just follow along page by page. There's no good reason to skip around in the lessons. I feel like my favorite part so far is using the Markup Language. Doing these journal-like readme's is really going to be useful to become a pro at using the language.*
+
+*Here's a link to my **[Github Profile](https://github.com/mjohnson92)** and down here is a screenshot of my readme.md in Atom.*
+
+![My readme.md](/hw-2/screenshot-readme120.png)
