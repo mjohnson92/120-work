@@ -14,12 +14,14 @@
 
     What issues did you help your fellow classmates out with this past homework cycle?
 
-*This week was a great refresher. Last weekend I did nearly the exact same assignment for the Media Arts **'Intro to Web Design'** class. I feel comfortable using the following programs:*
+*This week was a great refresher. Last weekend I did nearly the exact same assignment for the Media Arts **'Intro to Web Design'** class. We created accounts on Github, created readmes' and even our first HTML website. Already, I feel quite a bit comfortable using the following items:*
 
 1. Atom
 2. Github Desktop
 3. Github.com
 
-*Something that I still do not feel very comfortable with is the **Terminal** on the Mac. I followed along with the videos though so I did recieve some experience. I need to go back to week 1 and read the magic terminal story some more.*
+*Commiting, pushing, and fetching has come easily now that I've done it so many times.*
 
-*I feel as though the course is set up very well. It's easiest to just follow along page by page. There's no good reason to skip around in the lessons.* 
+*Something that I still do not feel very comfortable with is the **Terminal** on the Mac. I followed along with the videos though so I did recieve some experience. I need to go back to week 1 and read the magic terminal story some more. This was mainly the only issue I ran into and I solved it by following along in the tutorial videos. I did not end up posting anything in the class repo issue tracker.*
+
+*I feel as though the course is set up very well. It's easiest to just follow along page by page. There's no good reason to skip around in the lessons. I feel like my favorite part so far is using the Markup Language. Doing these journal like readme's is really going to be useful to become a pro at using the language.* 
