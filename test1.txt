@@ -2,7 +2,7 @@ Name: Michael Johnson
 Date:09/13/2017
 
 This is my first text document for one of Dr. Musick's Media Arts courses.
-
+That now has been altered. Yikes!
 
 I added a new line of text to this file!
 
