@@ -16,7 +16,7 @@ function draw() {
 
     translate( 300,400 );
 
-    // --------------------------------- BACKGROUND
+    // --------------------------------- Background Characteristics
 
     // --------------------------------- Clouds (rectangle)
 
@@ -29,7 +29,7 @@ function draw() {
 
     // --------------------------------- Clouds End
 
-    // --------------------------------- building 1 (rectangle)
+    // --------------------------------- Building 1 (rectangle)
 
     push();
     translate( 0, 250 );
@@ -38,9 +38,9 @@ function draw() {
     rect( -200, -500, 100, 600 );
     pop();
 
-    // --------------------------------- building 1 End
+    // --------------------------------- Building 1 End
 
-    // --------------------------------- building 2 (rectangle)
+    // --------------------------------- Building 2 (rectangle)
 
     push();
     translate( 0, 250 );
@@ -49,9 +49,9 @@ function draw() {
     rect( -105, -700, 100, 600 );
     pop();
 
-    // --------------------------------- building 2 End
+    // --------------------------------- Building 2 End
 
-    // --------------------------------- building 3 (rectangle)
+    // --------------------------------- Building 3 (rectangle)
 
     push();
     translate( 0, 250 );
@@ -60,9 +60,9 @@ function draw() {
     rect( 50, -700, 100, 600 );
     pop();
 
-    // --------------------------------- building 3 End
+    // --------------------------------- Building 3 End
 
-    // --------------------------------- building 4 (rectangle)
+    // --------------------------------- Building 4 (rectangle)
 
     push();
     translate( 0, 250 );
@@ -71,9 +71,9 @@ function draw() {
     rect( 100, -500, 100, 600 );
     pop();
 
-    // --------------------------------- building 4 End
+    // --------------------------------- Building 4 End
 
-    // --------------------------------- building 5 (rectangle)
+    // --------------------------------- Building 5 (rectangle)
 
     push();
     translate( 0, 250 );
@@ -82,7 +82,7 @@ function draw() {
     rect( 180, -700, 100, 600 );
     pop();
 
-    // --------------------------------- building 5 End
+    // --------------------------------- Building 5 End
 
     // --------------------------------- Concrete (rectangle)
 
@@ -128,13 +128,13 @@ function draw() {
 
     // --------------------------------- Hedge End
 
-    // --------------------------------- Background End
+    // --------------------------------- Background Characteristics End
 
     // --------------------------------- Body
 
     // --------------------------------- Shirt
 
-    // --------------------------------- top shirt (ellipse)
+    // --------------------------------- Top shirt (ellipse)
 
     push();
     translate( 0, 245 );
@@ -143,7 +143,7 @@ function draw() {
     ellipse( 0, 0, 350, 270 );
     pop();
 
-    // --------------------------------- bottom shirt (rectangle)
+    // --------------------------------- Bottom shirt (rectangle)
 
     push();
     translate( -151, 250 );
@@ -152,7 +152,7 @@ function draw() {
     rect( 0, 0, 305, 270 );
     pop();
 
-    // ---------------------------------- sleeve right (rectangle)
+    // ---------------------------------- Sleeve right (rectangle)
 
     push();
     translate( -23, 260 );
@@ -162,7 +162,7 @@ function draw() {
     rect( 133, 30, 60, 400 );
     pop();
 
-    // ---------------------------------- sleeve right (rectangle)
+    // ---------------------------------- Sleeve right (rectangle)
 
     push();
     translate( 50, 210 );
@@ -194,7 +194,7 @@ function draw() {
 
     //----------------------------------- Body End
 
-    //----------------------------------- SKULL
+    //----------------------------------- Skull
 
     // ---------------------------------- Beard (ellipse)
 
@@ -215,7 +215,7 @@ function draw() {
     ellipse( 250, 0, 160, 180 );
     pop();
 
-    // --------------------------------- head (ellipse)
+    // --------------------------------- Head (ellipse)
 
     push();
     translate( 0, 250);
@@ -225,7 +225,7 @@ function draw() {
     ellipse( 250, 0, 220, 160 );
     pop();
 
-    // --------------------------------- MAIN BEARD (semicircle)
+    // --------------------------------- Main Beard (semicircle)
 
     push();
     translate( 0, 250);
@@ -234,9 +234,9 @@ function draw() {
     arc( 0, -200, 142, 142, 0, PI );
     pop();
 
-    // --------------------------------- MAIN BEARD END
+    // --------------------------------- Main beard End
 
-    // --------------------------------- mustache (two quads)
+    // --------------------------------- Mustache (two quads)
 
     push();
     noStroke();
@@ -246,9 +246,9 @@ function draw() {
     quad( 0, 5, -5, 20, -50, 25, -55, 20 );
     pop();
 
-    // ----------------------------------mustache END
+    // ----------------------------------Mustache END
 
-    // --------------------------------- goatee (rectangles & triangles)
+    // --------------------------------- Goatee (rectangles & triangles)
 
     push();
     noStroke();
@@ -270,11 +270,11 @@ function draw() {
     triangle( 50, 20, 70, 50, 50, 50 );
     pop();
 
-    // --------------------------------- SKULL END
+    // --------------------------------- Skull End
 
-    // --------------------------------- EARS
+    // --------------------------------- Ears
 
-    // --------------------------------- ear left (ellipse)
+    // --------------------------------- Ear left (ellipses)
 
     push()
     translate( 0, 240);
@@ -284,7 +284,15 @@ function draw() {
     ellipse( 260, -75, 55, 40 );
     pop();
 
-    // --------------------------------- ear right (ellipse)
+    push();
+    translate( 0, 240);
+    fill( 'rgb(0, 0, 0)' );
+    noStroke();
+    rotate( radians(-90) );
+    ellipse( 240, -82, 5, 5 );
+    pop();
+
+    // --------------------------------- Ear right (ellipses)
 
     push()
     translate( 0, 240);
@@ -294,7 +302,15 @@ function draw() {
     ellipse( 260, 75, 55, 40 );
     pop();
 
-    //---------------------------------- EARS END
+    push();
+    translate( 0, 240);
+    fill( 'rgb(0, 0, 0)' );
+    noStroke();
+    rotate( radians(-90) );
+    ellipse( 240, 82, 5, 5 );
+    pop();
+
+    //---------------------------------- Ears End
 
     //---------------------------------- Sideburns (rectangles)
 
@@ -306,9 +322,9 @@ function draw() {
     rect( -75, -69, 12, 120);
     pop();
 
-    //---------------------------------- Sideburns END
+    //---------------------------------- Sideburns End
 
-    // --------------------------------- eyebrows (quads)
+    // --------------------------------- Eyebrows (quads)
 
     push();
     noStroke();
@@ -318,7 +334,7 @@ function draw() {
     quad( -5, -35, -10, -45, -50, -50, -55, -45 );
     pop();
 
-    // --------------------------------- eyebrows End
+    // --------------------------------- Eyebrows End
 
     // --------------------------------- Hairstyle (triangles)
 
@@ -350,7 +366,7 @@ function draw() {
     triangle( -15, 3, 15, 3, 0, -35 );
     pop();
 
-    // --------------------------------- Nose END
+    // --------------------------------- Nose End
 
     // --------------------------------- Mouth (rectangle with round corners)
 
@@ -412,7 +428,7 @@ function draw() {
     ellipse( 0, 0, 2, 2 );
     pop();
 
-    // --------------------------------- Left Eye END
+    // --------------------------------- Left Eye End
 
     // --------------------------------- Right Eye (ellipses)
 
@@ -448,7 +464,7 @@ function draw() {
     ellipse( 0, 0, 2, 2 );
     pop();
 
-    // --------------------------------- Right Eye END
+    // --------------------------------- Right Eye End
 
     pop();
 
