@@ -1,4 +1,4 @@
-Your Name, Your Section Number
+Michael Johnson, 51
 
 [Live Sketch Link](Your Live Link)
 
@@ -6,9 +6,6 @@ Your Name, Your Section Number
 # HW 7 | Describe then Alter the Bouncing Ball
 
 ## Description of What the Original Code is Doing
-
-<!--
---This is a Comment Block--
 
 Please describe what the original code is doing.
 
@@ -80,12 +77,10 @@ How can you make the ball change direction?
 
 You can change the direction of the ball, by clicking near the ball itself, it changes its course within the range of .5 - 10.
 
--->
 
 
 ## How did you alter the sketch?
 
-<!--
 Please describe how and why you changed the sketch?
 
 I made the size of the shape bigger and changed it to a square.
@@ -95,5 +90,3 @@ Switched the background color to a constantly changing rainbow.
 Change Canvas Size.
 Editted the starting postion to what i think may be just below the center. ball.x = 600; ball.y = 320;
 Increased the range of the direction able to be changed by clicking near the shape from 10 to 12.
-
--->
