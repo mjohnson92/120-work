@@ -33,7 +33,7 @@ What does each line do?
     }
 
 
-  function draw() {
+      function draw() {
 
       ball.x += ball.delta_x * ball.scale_x;      //-------- Ball x pos adding / assigning change in x multiplied by secondary change in x
                                                   //-------- Ball only runs vertically if 0 change. Needs at least one, greater, increases angle.
@@ -60,7 +60,7 @@ What does each line do?
 
       fill(255);                                        //------ ball color
       ellipse(ball.x, ball.y, ball.width, ball.width);  //------ ellipse dimensions. X pos, Y pos, width, height
-  }
+          }
 
           function mousePressed() {
               ball.scale_x = map(mouseX, 0, width, 0.5, 10);    //------- changes direction of ball when clicked near ball
@@ -88,5 +88,5 @@ I changed the color of the shape to black.
 Changed the input to 1 from 5 for ball.delta_x = 5; to change angle of the initial starting angle.
 Switched the background color to a constantly changing rainbow.
 Change Canvas Size.
-Editted the starting postion to what i think may be just below the center. ball.x = 600; ball.y = 320;
+Editted the starting postion to what i think may be just below the center. ball.x = 600; ball.y = 320;.
 Increased the range of the direction able to be changed by clicking near the shape from 10 to 12.
