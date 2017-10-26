@@ -62,14 +62,14 @@ What does each line do?
       ellipse(ball.x, ball.y, ball.width, ball.width);  //------ ellipse dimensions. X pos, Y pos, width, height
   }
 
-  function mousePressed() {
-      ball.scale_x = map(mouseX, 0, width, 0.5, 10);    //------- changes direction of ball when clicked near ball
-                                                        //------- (convert, low bound, upper bound, target low bound, target up bound)
-      ball.scale_y = map(mouseY, 0, height, 0.5, 10);   //------- changes direction of ball when clicked near ball
-  }                                                     //------- (convert, low bound, upper bound, target low bound, target up bound)
-                                                        //------- (0) is left edge of window, (width) is right edge.
-                                                        //------- (0) is top edge of window, (height is bottom edge.)
-                                                        //------- Mouse x & y are converted from the range .5 to 10.
+          function mousePressed() {
+              ball.scale_x = map(mouseX, 0, width, 0.5, 10);    //------- changes direction of ball when clicked near ball
+                                                                //------- (convert, low bound, upper bound, target low bound, target up bound)
+              ball.scale_y = map(mouseY, 0, height, 0.5, 10);   //------- changes direction of ball when clicked near ball
+          }                                                     //------- (convert, low bound, upper bound, target low bound, target up bound)
+                                                                //------- (0) is left edge of window, (width) is right edge.
+                                                                //------- (0) is top edge of window, (height is bottom edge.)
+                                                                //------- Mouse x & y are converted from the range .5 to 10.
 
 
 How can you make the ball change direction?
