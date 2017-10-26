@@ -19,7 +19,7 @@ The mouse clicked function acts as a realistic push onto the ball when it is cli
 What does each line do?
 
 
-var ball = {};          //---------------------- Variable ball is an object
+` var ball = {};          //---------------------- Variable ball is an object
 ball.width = 40;        //----------------------------------- Ball Diameter
 ball.x = 10;            //----------------------------------- Ball X Postion
 ball.y = 10;            //----------------------------------- Ball Y Postion
@@ -75,7 +75,7 @@ function mousePressed() {
 
 How can you make the ball change direction?
 
-You can change the direction of the ball, by clicking near the ball itself, it changes its course within the range of .5 - 10.
+You can change the direction of the ball, by clicking near the ball itself, it changes its course within the range of .5 - 10. `
 
 
 
