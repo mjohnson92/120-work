@@ -1,6 +1,6 @@
 Michael Johnson 51
 
-https://mjohnson92.github.io/120-work/hw-8/
+https://mjohnson92.github.io/120-work/hw-8/index.html
 
 ## *Experience*
 
