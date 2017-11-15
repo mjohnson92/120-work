@@ -16,6 +16,4 @@ https://mjohnson92.github.io/120-work/hw-10/
 
 ### *Future*
 
-*Feelin better, looking forward to learning new material next week!*
-
-AHHHH
+*Excited to write more functions!*
