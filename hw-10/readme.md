@@ -4,15 +4,15 @@ https://mjohnson92.github.io/120-work/hw-10/
 
 ## *Experience*
 
-*Since we were given such an open assignment, I wanted to revisit animation a little bit and use what I've learned in the last few weeks to try to update an idea. I am pretty happy with the result and I felt comfortable once I got going. I almost feel like the for loop made everything come together in understanding a lot of the previous weeks. I'm not sure why but it I feel great this week.*
+*Functions are great! I'm excited to be using them, they can really condense your code. It makes sense to create things and define in this new way. I guess I should have seen it coming. I'll need to practice them more, I feel like my code can be even more condensed it would just take a lot of thinking and problem solving. The ability to condense makes me think about technology itself, it's journey of exponential growth. I feel it's similar to learning coding. Like once you overcome one step, you just copy and paste what you've learned and move on quickly.*
 
 ### *Process*
 
-*I decided to start from scratch and I mean, literal from line 1. I did however copy over some of my code from the week 4 just to see how a small piece worked. Once I figured it out I started over again and recreated the same start from that week. Then I took it in to a newer place using ``if`` statements, ``let``,``for``,``mouseButton``, and even ``KeyIsPressed``! I really went diving into the reference this week to create something from scratch. I wanted to fulfil what I had in my head while I was creating the piece. I would have an idea and see if I could come up with the code to create it. Sometimes it took a while but I eventually would get what I wanted. I am curious to know if I could some how for loop all the quads I created but that seems like it wouldn't be possible with what I created.*
+*I decided to revisit week 8, something I've already revisited but I feel it's my most advanced code so I wanted to see how I could bring functions into the mix. It proved to be very helpful in this one. I ended up only having to create 4 but running 12 instances of each to create plenty of quads, ellipses, and curves. Very happy with the result in this one. My ideas kinda came to life for once.*
 
 ### *Problems*
 
-*The biggest problem I ran into was trying to get a for loop to work with what I had in my head. Although I found one solution, ``mouseButton``, it seems to be the most boring use for a for loop. I wanted to make it so the animation and for loop only ran when the mouse was pressed down. But I feel like I would have to change my entire code and a lot of things for that to work, so I became satisfied with the button and created unique if statements.*
+*The biggest problem I ran into was trying to understand where I could fit the array in. I understood what the array was, but realized it couldn't be used when running my functions. I needed to be used in the definition of my function. I tried to first place parameters in the `shape(windowWidth*.5, windowHeight*.5, -50);`*
 
 ### *Future*
 
