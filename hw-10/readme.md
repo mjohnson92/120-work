@@ -12,7 +12,7 @@ https://mjohnson92.github.io/120-work/hw-10/
 
 ### *Problems*
 
-*The biggest problem I ran into was trying to understand where I could fit the array in. I understood what the array was, but realized it couldn't be used when running my functions. I needed to be used in the definition of my function. I tried to first place parameters in the `shape(windowWidth*.5, windowHeight*.5, -50);`*
+*The biggest problem I ran into was trying to understand where I could fit the array in. I understood what the array was, but realized it couldn't be used when running my functions. I needed to be used in the definition of my function. I tried to first place parameters in the `shape(windowWidth*.5, windowHeight*.5, -50);`. I wanted to put a variable in one of the 3 parameters for shape. Never really understood why it wouldn't work except that it's probably because of how the function is written with these three variables. Like you can't throw an array in a variable paramter of the function when trying to print it. Something like that.*
 
 ### *Future*
 
