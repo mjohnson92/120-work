@@ -16,10 +16,6 @@ const numOfBrushes = 160;
 function setup() {
     createCanvas(windowWidth, windowHeight);
 
-
-        grass [0] = new Grass( 0, 330, 1400, 20);
-
-
     // create a new firefly object of class type "FireFly"
     let init_x = 60;
     let init_y = 60;
@@ -45,14 +41,12 @@ function setup() {
     lunar [2] = new Lunar(560, 4, 40);
     lunar [3] = new Lunar(600, 76, 58);
     lunar [4] = new Lunar(550, 46, 36);
+
+    grass [0] = new Grass( 0, 330, 1400, 20);
 }
 
 function draw() {
     background('rgb(22, 22, 29)');
-
-    // call the grass's appearence
-
-        grass[0].display();
 
         for (let i = 0; i < stars.length; i++) {
             stars[i].display();
@@ -80,8 +74,10 @@ function draw() {
     for (let i = 0; i < brushes.length; i++) {
         // call the brush's methods
         brushes[i].display();
+
     }
 
+      grass[0].display();
 }
 
                 ///////////////////////////////////////////
